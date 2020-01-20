@@ -1,0 +1,27 @@
+{
+  "name": "mb-form-data",
+  "version": "0.0.1",
+  "description": "Ce module permet de gérer les formatages, les mise en place des contraintes de validation des types de données",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "validator",
+    "data",
+    "valid",
+    "form",
+    "input",
+    "verify",
+    "valid",
+    "form",
+    "valider",
+    "mb"
+  ],
+  "author": "Don de Dieu Bolenge",
+  "license": "ISC",
+  "dependencies": {
+    "mbnumber": "^0.1.0",
+    "mbregex": "^0.1.2"
+  }
+}
