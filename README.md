@@ -98,6 +98,8 @@ let rules = {
 * `min:n` : `n` réprésente le nombre minimum de caractères que doit avoir ce champ
 * `max:n` : `n` réprésente le nombre maximum de caractères que doit avoir ce champ
 * `int` : La valeur du chmap doit être un entier
+* `alpha:n` : La valeur du chmap doit être une chaine de caractère `n` (facultatif) réprésente le nombre de caractères que doit avoir ce champ
+* `tel` : La valeur du champ doit être un numéro de téléphone valide
 
 ## Features
 
