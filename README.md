@@ -15,8 +15,7 @@ $ npm install mb-form-data
 
 ```js
 let mbFormData = require('mb-form-data')
-let Validator = mbFormData.Validator
-let dataValidator = new Validator
+let validator = mbFormData.Validator
 
 let donnees = {
 	nom: 'Etokila',
@@ -31,7 +30,7 @@ let rules = {
 	email: 'required|email'
 }
 
-dataValidator.verify(datas, rules, (success, errors) => {
+validator.verify(datas, rules, (success, errors) => {
 	if (success) {
 		console.log("Ok")
 	}else {
@@ -42,7 +41,7 @@ dataValidator.verify(datas, rules, (success, errors) => {
 
 ### mbFormData.Validator
 
-> Est une classe qui comporte plusieurs méthode qui sont exécutées en background lors de la vérification des contraintes (rules) sur les données
+> Est un objet qui comporte plusieurs méthode qui sont exécutées en background lors de la vérification des contraintes (rules) sur les données
 
 #### mbFormData.Validator.verify(datas, rules = null, callback)
 

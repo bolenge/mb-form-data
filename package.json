@@ -4,7 +4,7 @@
   "description": "Ce module permet de gérer les formatages, les mise en place des contraintes de validation des types de données",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js"
   },
   "repository": {
     "type": "git",
@@ -25,7 +25,8 @@
   "author": "Don de Dieu Bolenge",
   "license": "ISC",
   "dependencies": {
+    "email-validator": "^2.0.4",
     "mbnumber": "^0.1.0",
-    "mbregex": "^0.1.2"
+    "mbregex": "^0.1.5"
   }
 }
