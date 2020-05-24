@@ -1,6 +1,6 @@
 {
   "name": "mb-form-data",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Ce module permet de gérer les formatages, les mise en place des contraintes de validation des types de données",
   "main": "index.js",
   "scripts": {
