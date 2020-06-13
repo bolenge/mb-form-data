@@ -100,6 +100,32 @@ let rules = {
 * `alpha:n` : La valeur du chmap doit être une chaine de caractère `n` (facultatif) réprésente le nombre de caractères que doit avoir ce champ
 * `tel` : La valeur du champ doit être un numéro de téléphone valide
 
+> Note : Au cas où vous aurez besoin de faire en sorte que le nom du champ à afficher le message auprès de l'utilisateur ne soit pas celui du champ de données envoyées, vous pouvez spécifier ce nom en rajoutant la règle `field:Nom à afficher`.
+
+Exemple
+```js
+let donnees = {
+	name: 'E',
+	firstname: '123',
+	email: 'diani'
+}
+
+let rules = {
+	name: 'field:Nom|required|min:3|max:30',
+	firstname: 'min:3|field:Prénom|max:30|alpha',
+	email: 'required|email|field:Adresse email'
+}
+
+validator.verify(datas, rules, (success, errors) => {
+	if (success) {
+		console.log("Ok")
+	}else {
+		console.log(errors)
+	}
+})
+
+```
+
 ## Features
 
 Les fonctionnalités à rajouter dans les futures versions :

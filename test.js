@@ -1,14 +1,14 @@
 const validator = require('./index').Validator;
 
 let data = {
-	nom: 'Bolenge',
-	email: 'dondedieubolenge@gmail.com',
+	nom: 'b',
+	email: 'dondedieuboleng',
 	num: 1234
 }
 
 let rules = {
-	nom: 'min:4',
-	email: 'email',
+	nom: 'required|field:Nom|min:4',
+	email: 'required|field:Adresse email|email',
 	num: 'required'
 }
 
