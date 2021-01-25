@@ -134,8 +134,4 @@ Les fonctionnalités à rajouter dans les futures versions :
 
 * Inclusion de ce module comme middleware sous [ExpressJS](http://expressjs.com/) pour injecter l'objet `errors` dans les `req` ou `res`
 
-## Pour tout contact
-
-* Emailc : dondedieubolenge@gmail.com
-* Facebook : [Don de Dieu Bolenge](http://facebook.com/dondedieu.bolenge)
-* Github : [bolenge](http://github/bolenge)
+Elles sont développées dans le module [body-data-validator](https://www.npmjs.com/package/body-data-validator).
